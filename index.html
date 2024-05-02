@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://cdn.glitch.global/9644bfe9-7540-484a-9467-f4bcfa46ae30/Annotation%202024-02-21%20135656.png?v=1708541850373">
+<title>Jurly X</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+  
+  H1 {
+    Font-Family: Fantasy;
+    text-align: center;
+    color: #1E90FF;
+    font-size: 100px;
+  }
+    #keyInput {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+    }
+    #iframeContainer {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+</style>
+</head>
+<body>
+ <div id="JX">
+  <h1>
+    Jurly <span id="Key">X</span>
+  </h1>
+ </div>
+<div id="lol">
+  
+
+  <div id="keyInput">
+      <input type="password" id="key" placeholder="Enter Key">
+      <button onclick="checkKey()">Submit</button>
+  </div>
+  <div id="iframeContainer">
+      <iframe  id="iframe"></iframe>
+  </div>
+    <script src="gsdn.js"></script>
+  <script>
+
+     const keys = ['jx1435', 'vsdjvJjjIJuhyhHHgt', 'uYVrfdf8fv44bhmbfG', 'gljlhhwsgeguJHgjgGF767hgHFyr', 'gfjhuhiuqkFasfjHIjklcmlwhyGfe8fdvsf6v', 'ytgnrage345whtGs4dgGswfrhF4Grte23', 'sjkhhhKJFHyuaGTgjf4234LFhJHgg', 'grejgehfiugjfuziugufhKJhfkjHJHgfkshdkherrkj34', 'fkfhdjhvanjgnjJHGjcjhbshyu35JHFb4tw', 'dog.3', 'fdjiushgifHGIUAWHGIUHfuHGJERH45', 'gnignziRHngsiuernthIUHigniuUHu53', 'jlhgmjfijnguijjfuijJfiuoJgIOJ55', 'oof.3', 'log.wil', 'log.swa'];
+
+      function checkKey() {
+          const inputKey = document.getElementById('key').value;
+          if (keys.includes(inputKey)) {
+              document.getElementById('keyInput').style.display = 'none';
+              document.getElementById('JX').style.display = 'none';
+              document.getElementById('iframeContainer').style.display = 'block';
+              document.getElementById('iframe').src = 'https://blog12012.topvazgeo.site/';
+          } else {
+              alert('Incorrect Key. Try again.');
+          }
+      }
+  </script>
+</div>
+</body>
+</html>
